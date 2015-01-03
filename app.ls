@@ -77,7 +77,7 @@ get-logs-quiz-collection = (callback) ->
 
 get-logs-fb-collection = (callback) ->
   get-mongo-db2 (db) ->
-    callback db.collection('fblogs9'), db
+    callback db.collection('fblogs10'), db
 
 # Express initialization
 
